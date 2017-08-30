@@ -8,7 +8,7 @@ stack<pair<int, int>> s;
 
 int arr[6][4];
 
-//bool function return always 1 ya 0 
+//bool function return always 1 or 0 
 bool getSol(int c1, int c2) {
 	if(c1 + c2 == 4)
 		return true;
